@@ -63,7 +63,7 @@
     <section class="first-section section">
       <div class="container">        
           <h1 class="main-heading">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="main-btn">Замовити послугу</button>        
+          <button type="button" class="main-btn" data-modal-open>Замовити послугу</button>        
       </div>
     </section>
       <!-- Section 2 pecularities -->
@@ -284,21 +284,21 @@
                 <li class="social-link-team li">
                   <a class="social-link-team" href="https://www.twitter.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                     <svg class="social-icon" width="20px" height="20px">
-                      <use href="./img/icons.svg#instagram"></use>
+                      <use href="./img/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social-link-team li">
                   <a class="social-link-team" href="https://www.facebook.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                     <svg class="social-icon" width="20px" height="20px">
-                      <use href="./img/icons.svg#instagram"></use>
+                      <use href="./img/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social-link-team li">
                   <a class="social-link-team" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                     <svg class="social-icon" width="20px" height="20px">
-                      <use href="./img/icons.svg#instagram"></use>
+                      <use href="./img/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -409,6 +409,17 @@
             </ul>
          </div>
         </div>
-     </footer>
+      </footer>
+        <!--Modal-window-->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn" type="button" data-modal-close>
+              <svg class="modal-icon" width="18px" height="18px">
+                <use href="./img/icons.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <script src="./js/modal.js"></script>
   </body>
 </html>
